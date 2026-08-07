@@ -1,0 +1,923 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling1\cocoaplatform1{\fonttbl\f0\froman\fcharset0 TimesNewRomanPS-BoldMT;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid401\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid501\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid6}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}}
+\deftab720
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \uc0\u12304 \u27169 \u32068 \u21270 \u28961 \u24494 \u25511 \u21046 \u22120  (MCU-less) \u25511 \u21046 \u31995 \u32113 \u30828 \u39636 \u33139 \u20301 \u33287 \u24037 \u31243 \u35215 \u31684 \u35498 \u26126 \u26360 \u12305 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf2 \strokec2 \uc0\u25991 \u20214 \u29256 \u26412 \u65306 
+\f1\b0 \cf2 \strokec2  Rev 1.0 
+\f0\b \cf2 \strokec2 \uc0\u25991 \u20214 \u20998 \u39006 \u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u30828 \u39636 \u24037 \u31243 \u35373 \u35336 /\u25509 \u33139 \u23450 \u32681 /PCB \u20296 \u32218 \u35215 \u31684  
+\f0\b \cf2 \strokec2 \uc0\u28085 \u33995 \u20803 \u20214 \u65306 
+\f1\b0 \cf2 \strokec2  SC18IM704\uc0\u12289 MCP23017\u12289 MCP4725\u12289 MCP3221\
+\uc0\u26412 \u35498 \u26126 \u26360 \u26088 \u22312 \u25552 \u20379 \u31995 \u32113 \u35373 \u35336 \u20013 \u22235 \u27454 \u26680 \u24515 \u31309 \u39636 \u38651 \u36335  (IC) \u30340 \u23526 \u39636 \u25509 \u33139 \u23450 \u32681 \u12289 \u38651 \u27683 \u29305 \u24615 \u20197 \u21450 \u30828 \u39636 \u25972 \u21512 \u35215 \u31684 \u12290 \u26412 \u25991 \u20214 \u36969 \u21512 \u30828 \u39636 \u24037 \u31243 \u24107 \u26044 \u21407 \u29702 \u22294  (Schematic) \u32362 \u35069 \u33287 \u21360 \u21047 \u38651 \u36335 \u26495  (PCB) \u20296 \u32218 \u38542 \u27573 \u20316 \u28858 \u27161 \u28310 \u21443 \u32771 \u12290 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf2 \strokec2 1. NXP SC18IM704\uc0\u65306 UART \u36681  I2C \u23526 \u39636 \u23652 \u27211 \u25509 \u26230 \u29255 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\fs28 \cf2 \strokec2 1.1 \uc0\u26230 \u29255 \u27010 \u36848 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf2 \strokec2 SC18IM704 \uc0\u26159 \u19968 \u38982 \u23560 \u28858 \u27211 \u25509 \u38750 \u21516 \u27493 \u25910 \u30332 \u20659 \u36664 \u22120  (UART) \u33287  I2C \u21295 \u27969 \u25490 \u25152 \u35373 \u35336 \u30340 \u32020 \u30828 \u39636 \u36681 \u25563 \u26230 \u29255 \u12290 \u22312 \u28961 \u24494 \u25511 \u21046 \u22120  (MCU-less) \u30340 \u26550 \u27083 \u20013 \u65292 \u26412 \u26230 \u29255 \u25198 \u28436 \u26680 \u24515 \u12300 \u32763 \u35695 \u23448 \u12301 \u35282 \u33394 \u65292 \u30452 \u25509 \u23559 \u19978 \u20301 \u27231 \u32147 \u30001  RS485 \u23526 \u39636 \u23652 \u36681 \u25563 \u32780 \u20358 \u30340  UART \u37007 \u36655 \u35338 \u34399 \u65292 \u33258 \u21205 \u35299 \u30908 \u20006 \u36681 \u25563 \u28858 \u25511 \u21046 \u24863 \u28204 \u22120 \u33287 \u33268 \u21205 \u22120 \u30340  I2C \u26178 \u24207 \u12290 \u20854 \u39640 \u36948  5V \u30340 \u36664 \u20837 \u23481 \u24525 \u33021 \u21147 \u65292 \u26997 \u22823 \u22320 \u31777 \u21270 \u20102 \u31995 \u32113 \u38651 \u20301 \u36681 \u25563 \u30340 \u35079 \u38620 \u24230 \u12290 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 1.2 TSSOP-16 \uc0\u23553 \u35037 \u33139 \u20301 \u23450 \u32681 \u32317 \u34920 \
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\fs24 \cf2 \strokec2 \uc0\u24341 \u33139 \u34399 \u30908 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 \uc0\u33139 \u20301 \u21517 \u31281 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 I/O \uc0\u39006 \u22411 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 \uc0\u21151 \u33021 \u35498 \u26126 \u33287 \u31995 \u32113 \u23450 \u32681 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 1
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPIO0\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u21487 \u31243 \u24335 \u21270 \u36890 \u29992 \u25976 \u20301  I/O\u12290 \u21487 \u29992 \u20316 \u36628 \u21161 \u38283 \u38364 \u36664 \u20986 \u25110 \u29376 \u24907 \u35712 \u21462 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 2
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPIO1\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u21487 \u31243 \u24335 \u21270 \u36890 \u29992 \u25976 \u20301  I/O\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 3
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 RESET\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u30828 \u39636 \u37325 \u32622 \u33139 \u20301  (Active Low\u65292 \u20302 \u38651 \u20301 \u26377 \u25928 )\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 4
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 VSS\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38651 \u28304 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u26230 \u29255 \u37007 \u36655 \u25509 \u22320 \u31471  (GND)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 5
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPIO2\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u21487 \u31243 \u24335 \u21270 \u36890 \u29992 \u25976 \u20301  I/O\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 6
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPIO3\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u21487 \u31243 \u24335 \u21270 \u36890 \u29992 \u25976 \u20301  I/O\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 7
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 SDA\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521  (\u38283 \u28431 )\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 I2C \uc0\u21295 \u27969 \u25490 \u36039 \u26009 \u32218  (Serial Data)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 8
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 SCL\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20986  (\u38283 \u28431 )\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 I2C \uc0\u21295 \u27969 \u25490 \u26178 \u33032 \u32218  (Serial Clock)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 9
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPIO4\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u21487 \u31243 \u24335 \u21270 \u36890 \u29992 \u25976 \u20301  I/O\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 10
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPIO5\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u21487 \u31243 \u24335 \u21270 \u36890 \u29992 \u25976 \u20301  I/O\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 11
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 WAKEUP\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u21914 \u37266 \u25511 \u21046 \u33139 \u20301 \u12290 \u29992 \u26044 \u23559 \u26230 \u29255 \u24478 \u20302 \u21151 \u32791 \u30561 \u30496 \u27169 \u24335 \u20013 \u21914 \u37266 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 12
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 VDD\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38651 \u28304 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u26230 \u29255 \u27491 \u38651 \u28304 \u36664 \u20837 \u31471  (1.71V - 3.6V)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 13
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 TX\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20986 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 UART \uc0\u20659 \u36865 \u31471  (Transmit)\u12290 \u36899 \u25509 \u33267  RS485 \u26230 \u29255 \u20043  RX\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 14
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 RX\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 UART \uc0\u25509 \u25910 \u31471  (Receive)\u12290 \u36899 \u25509 \u33267  RS485 \u26230 \u29255 \u20043  TX\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 15
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPIO6\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u21487 \u31243 \u24335 \u21270 \u36890 \u29992 \u25976 \u20301  I/O\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6140\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 16
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPIO7\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u21487 \u31243 \u24335 \u21270 \u36890 \u29992 \u25976 \u20301  I/O\u12290 \cell \lastrow\row
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 1.3 \uc0\u26680 \u24515 \u33139 \u20301 \u28145 \u24230 \u35299 \u26512 \u33287 \u25033 \u29992 \u35215 \u31684 \
+\pard\pardeftab720\partightenfactor0
+\ls1\ilvl0
+\fs24 \cf2 \strokec2 {\listtext	\'95	}\uc0\u24207 \u21015 \u36890 \u35338 \u20171 \u38754  (TX, RX)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u27492 \u20841 \u26681 \u33139 \u20301 \u28858 \u26230 \u29255 \u33287 \u22806 \u30028 \u36890 \u35338 \u30340 \u21629 \u33032 \u12290 
+\f2 \cf2 \strokec2 RX
+\f1 \cf2 \strokec2  \uc0\u33139 \u20301 \u20855 \u20633  5V Tolerant (5V \u23481 \u24525 ) \u29305 \u24615 \u65292 \u20195 \u34920 \u21363 \u20351 \u21069 \u31471  MAX485 \u26230 \u29255 \u20351 \u29992  5V \u20379 \u38651 \u20006 \u21520 \u20986  5V \u30340 \u39640 \u38651 \u20301 \u35338 \u34399 \u65292 \u30452 \u25509 \u25509 \u20837 \u24037 \u20316 \u26044  3.3V \u30340  SC18IM704 \u20063 \u19981 \u26371 \u36896 \u25104 \u25802 \u31359 \u25613 \u27584 \u12290 \u20296 \u32218 \u26178 \u65292 \u27492 \u20841 \u26681 \u36208 \u32218 \u25033 \u30433 \u21487 \u33021 \u32302 \u30701 \u65292 \u20006 \u36960 \u38626 \u39640 \u38971 \u20999 \u25563 \u38651 \u36335 \u25110 \u39640 \u22739 \u22823 \u38651 \u27969 \u36335 \u24465 \u12290 \
+\ls1\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}I2C \uc0\u21295 \u27969 \u25490  (SDA, SCL)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u20316 \u28858  I2C \u25511 \u21046 \u22120  (Controller)\u65292 \u27492 \u20841 \u26681 \u33139 \u20301 \u30342 \u28858 \u38283 \u28431  (Open-Drain) \u36664 \u20986 \u32080 \u27083 \u65292 \u20195 \u34920 \u26230 \u29255 \u20839 \u37096 \u21482 \u33021 \u23559 \u38651 \u20301 \u25289 \u20302 \u33267  GND\u65292 \u28961 \u27861 \u20027 \u21205 \u36664 \u20986 \u39640 \u38651 \u20301 \u12290 
+\f0\b \cf2 \strokec2 \uc0\u24037 \u31243 \u35215 \u31684 \u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u24517 \u38920 \u22312  PCB \u26495 \u19978 \u28858  
+\f2 \cf2 \strokec2 SDA
+\f1 \cf2 \strokec2  \uc0\u33287  
+\f2 \cf2 \strokec2 SCL
+\f1 \cf2 \strokec2  \uc0\u21508 \u33258 \u22806 \u21152 \u19968 \u38982 \u23526 \u39636 \u12300 \u19978 \u25289 \u38651 \u38459  (Pull-up Resistor)\u12301 \u36899 \u25509 \u33267  VDD (3.3V)\u12290 \u38459 \u20540 \u24314 \u35696 \u28858  4.7k\u937  \u33267  10k\u937 \u65292 \u35222 \u21295 \u27969 \u25490 \u38263 \u24230 \u33287 \u23492 \u29983 \u38651 \u23481 \u32780 \u23450 \u12290 \
+\ls1\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}\uc0\u31995 \u32113 \u37325 \u32622  (RESET) \u33287 \u21914 \u37266  (WAKEUP)\u65306 
+\f1\b0 \cf2 \strokec2  
+\f2 \cf2 \strokec2 RESET
+\f1 \cf2 \strokec2  \uc0\u28858 \u20302 \u38651 \u20301 \u26377 \u25928 \u12290 \u33509 \u31995 \u32113 \u19981 \u38656 \u35201 \u22806 \u37096 \u30828 \u39636 \u37325 \u32622 \u21151 \u33021 \u65292 \u35531 \u21209 \u24517 \u23559 \u27492 \u33139 \u20301 \u36879 \u36942  10k\u937  \u38651 \u38459 \u19978 \u25289 \u33267  VDD\u65292 \u22196 \u31105 \u25080 \u31354 \u65292 \u21542 \u21063 \u26230 \u29255 \u26371 \u22240 \u29872 \u22659 \u38620 \u35338 \u38971 \u32321 \u37325 \u21855 \u12290 
+\f2 \cf2 \strokec2 WAKEUP
+\f1 \cf2 \strokec2  \uc0\u33139 \u20301 \u21516 \u29702 \u65292 \u22312 \u19981 \u20351 \u29992 \u20302 \u21151 \u32791 \u27169 \u24335 \u30340 \u24646 \u24120 \u20379 \u38651 \u29872 \u22659 \u20013 \u65292 \u25033 \u30906 \u23526 \u25509 \u22320 \u25110 \u20381 \u35215 \u26684 \u26360 \u20316 \u23450 \u38651 \u20301 \u34389 \u29702 \u12290 \
+\ls1\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}\uc0\u36890 \u29992 \u36664 \u20837 \u36664 \u20986  (GPIO0 - GPIO7)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u38500 \u20102 \u27211 \u25509 \u21151 \u33021 \u65292 \u26230 \u29255 \u38989 \u22806 \u25552 \u20379 \u20102  8 \u26681 \u29544 \u31435 \u30340  GPIO\u12290 \u36889 \u24847 \u21619 \u33879 \u22914 \u26524 \u31995 \u32113 \u20677 \u38656 \u23569 \u37327 \u38283 \u38364 \u25511 \u21046 \u65288 \u20363 \u22914 \u21855 \u21205 \u24460 \u32026 \u30340 \u39640 \u22739 \u25918 \u22823 \u22120  OPA462\u65289 \u65292 \u38283 \u30332 \u32773 \u21487 \u30452 \u25509 \u21521  SC18IM704 \u19979 \u36948 \u20839 \u37096 \u26283 \u23384 \u22120 \u23531 \u20837 \u25351 \u20196 \u65292 \u23559  GPIO \u35373 \u28858 \u25512 \u25405 \u36664 \u20986  (Push-Pull)\u65292 \u24478 \u32780 \u30465 \u21435 \u38989 \u22806 \u30340  DIO \u26230 \u29255 \u12290 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf2 \strokec2 2. Microchip MCP23017\uc0\u65306 16 \u20301 \u20803  I2C \u25976 \u20301  I/O \u25844 \u23637 \u26230 \u29255 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\fs28 \cf2 \strokec2 2.1 \uc0\u26230 \u29255 \u27010 \u36848 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf2 \strokec2 MCP23017 \uc0\u28858 \u26989 \u30028 \u24291 \u27867 \u20351 \u29992 \u30340  I2C \u36681 \u20006 \u21015  I/O \u25844 \u20805 \u20803 \u20214 \u12290 \u36879 \u36942 \u20841 \u26681  I2C \u36890 \u35338 \u32218 \u65292 \u26412 \u26230 \u29255 \u21363 \u21487 \u28858 \u31995 \u32113 \u25552 \u20379 \u39640 \u36948  16 \u20491 \u29544 \u31435 \u19988 \u21487 \u38617 \u21521 \u35373 \u23450 \u30340 \u25976 \u20301 \u33139 \u20301 \u12290 \u20854 \u20839 \u37096 \u24314 \u32622 \u20102 \u23436 \u21892 \u30340 \u26283 \u23384 \u22120 \u26550 \u27083 \u65292 \u21253 \u21547 \u26041 \u21521 \u25511 \u21046  (IODIR)\u12289 \u20839 \u37096 \u19978 \u25289 \u38651 \u38459 \u25511 \u21046  (GPPU)\u12289 \u26997 \u24615 \u21453 \u36681  (IPOL) \u20197 \u21450 \u30828 \u39636 \u20013 \u26039 \u26144 \u23556  (INTCAP)\u65292 \u26997 \u36969 \u21512 \u29992 \u20358 \u31649 \u29702 \u35079 \u38620 \u30340 \u22823 \u37327 \u38283 \u38364 \u35338 \u34399 \u12290 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 2.2 \uc0\u27161 \u28310  28-Pin \u23553 \u35037 \u33139 \u20301 \u23450 \u32681 \u32317 \u34920  (PDIP/SOIC/SSOP)\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\fs24 \cf2 \strokec2 \uc0\u24341 \u33139 \u34399 \u30908 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 \uc0\u33139 \u20301 \u21517 \u31281 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 I/O \uc0\u39006 \u22411 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 \uc0\u21151 \u33021 \u35498 \u26126 \u33287 \u31995 \u32113 \u23450 \u32681 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 1 - 8
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPB0 - GPB7\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 Port B \uc0\u25976 \u20301  I/O\u12290 \u38928 \u35373 \u28858 \u36664 \u20837 \u27169 \u24335 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 9
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 VDD\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38651 \u28304 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u27491 \u38651 \u28304 \u36664 \u20837  (1.8V - 5.5V)\u12290 \u24314 \u35696 \u33287 \u31995 \u32113 \u32113 \u19968 \u20351 \u29992  3.3V\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 10
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 VSS\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38651 \u28304 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u26230 \u29255 \u37007 \u36655 \u25509 \u22320 \u31471  (GND)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 11
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 NC\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 -\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u31354 \u33139 \u20301  (No Connect)\u12290 \u20296 \u32218 \u26178 \u35531 \u30041 \u31354 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 12
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 SCL\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 I2C \uc0\u26178 \u33032 \u32218 \u12290 \u36899 \u25509 \u33267 \u27211 \u25509 \u26230 \u29255 \u20043  SCL\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 13
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 SDA\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521  (\u38283 \u28431 )\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 I2C \uc0\u36039 \u26009 \u32218 \u12290 \u36899 \u25509 \u33267 \u27211 \u25509 \u26230 \u29255 \u20043  SDA\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 14
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 NC\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 -\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u31354 \u33139 \u20301  (No Connect)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 15
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 A0\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u30828 \u39636  I2C \u22320 \u22336 \u35373 \u23450 \u33139 \u20301  0\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 16
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 A1\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u30828 \u39636  I2C \u22320 \u22336 \u35373 \u23450 \u33139 \u20301  1\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 17
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 A2\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u30828 \u39636  I2C \u22320 \u22336 \u35373 \u23450 \u33139 \u20301  2\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 18
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 RESET\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u22806 \u37096 \u30828 \u39636 \u37325 \u32622 \u33139 \u20301  (Active Low)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 19
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 INTB\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20986 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 Port B \uc0\u29376 \u24907 \u35722 \u26356 \u20013 \u26039 \u36664 \u20986 \u35338 \u34399 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 20
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 INTA\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20986 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 Port A \uc0\u29376 \u24907 \u35722 \u26356 \u20013 \u26039 \u36664 \u20986 \u35338 \u34399 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth1373\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5735\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 21 - 28
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 GPA0 - GPA7\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 Port A \uc0\u25976 \u20301  I/O\u12290 \u38928 \u35373 \u28858 \u36664 \u20837 \u27169 \u24335 \u12290 \cell \lastrow\row
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 2.3 \uc0\u26680 \u24515 \u33139 \u20301 \u28145 \u24230 \u35299 \u26512 \u33287 \u25033 \u29992 \u35215 \u31684 \
+\pard\pardeftab720\partightenfactor0
+\ls2\ilvl0
+\fs24 \cf2 \strokec2 {\listtext	\'95	}\uc0\u38617 \u21521 \u25976 \u20301 \u22496  (GPA0\cf2 \strike \strikec2 \strokec2 GPA7, GPB0\cf2 \strike0\striked0 \strokec2 GPB7)\uc0\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u27492  16 \u26681 \u33139 \u20301 \u28858 \u26230 \u29255 \u30340 \u25511 \u21046 \u26680 \u24515 \u12290 \u27599 \u26681 \u33139 \u20301 \u26368 \u22823 \u21487 \u25215 \u21463  25mA \u30340 \u25289 /\u28748 \u38651 \u27969  (Sourcing/Sinking Current)\u65292 \u36889 \u34920 \u31034 \u23427 \u21487 \u20197 \u30452 \u25509 \u40670 \u20142 \u26222 \u36890 \u30340  LED \u25351 \u31034 \u29128 \u65292 \u25110 \u30452 \u25509 \u25512 \u21205 \u23567 \u22411 \u20809 \u32806 \u21512 \u22120  (Optocoupler)\u12290 \u37341 \u23565 \u36664 \u20837 \u27169 \u24335 \u65292 \u38283 \u30332 \u32773 \u21487 \u36879 \u36942  I2C \u37197 \u32622 \u21855 \u29992 \u26230 \u29255 \u20839 \u37096 \u33258 \u24118 \u30340  100k\u937  \u24369 \u19978 \u25289 \u38651 \u38459 \u65292 \u28961 \u38920 \u22312 \u22806 \u37096 \u38651 \u36335 \u26495 \u19978 \u20296 \u28415 \u38651 \u38459 \u12290 \
+\ls2\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}\uc0\u30828 \u39636 \u22320 \u22336 \u35373 \u23450  (A0, A1, A2)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u28858 \u36991 \u20813  I2C \u21295 \u27969 \u25490 \u19978 \u30340 \u20301 \u22336 \u34909 \u31361 \u65292 \u27492 \u19977 \u26681 \u33139 \u20301 \u27770 \u23450 \u20102  MCP23017 \u30340 \u22522 \u30990 \u22320 \u22336 \u12290 \u22312 \u30828 \u39636 \u20296 \u32218 \u19978 \u65292 \u24517 \u38920 \u26126 \u30906 \u23559 \u36889 \u19977 \u26681 \u24341 \u33139 \u36899 \u25509 \u33267  VDD (\u34920 \u31034 \u37007 \u36655  1) \u25110  VSS (\u34920 \u31034 \u37007 \u36655  0)\u12290 
+\f0\b \cf2 \strokec2 \uc0\u24037 \u31243 \u35215 \u31684 \u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u22196 \u31105 \u23559 \u22320 \u22336 \u33139 \u20301 \u25080 \u31354 \u65292 \u36889 \u26371 \u23566 \u33268  I2C \u20301 \u22336 \u22312 \u36890 \u35338 \u36942 \u31243 \u20013 \u28418 \u31227 \u65292 \u24341 \u30332 \u28961 \u27861 \u38928 \u28204 \u30340 \u30070 \u27231 \u12290 \u33509 \u19977 \u32773 \u30342 \u25509 \u22320 \u65292 \u26230 \u29255 \u30340  7-bit \u20301 \u22336 \u23559 \u22266 \u23450 \u28858  
+\f2 \cf2 \strokec2 0x20
+\f1 \cf2 \strokec2 \uc0\u12290 \
+\ls2\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}\uc0\u30828 \u39636 \u20013 \u26039 \u31995 \u32113  (INTA, INTB)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u30070 \u20219 \u24847 \u36664 \u20837 \u33139 \u20301 \u30340 \u38651 \u20301 \u30332 \u29983 \u35722 \u21270 \u65288 \u20363 \u22914 \u24863 \u28204 \u22120 \u30332 \u20986 \u20302 \u38651 \u20301 \u35686 \u22577 \u65289 \u65292 \u27492 \u20841 \u26681 \u20013 \u26039 \u33139 \u20301 \u33021 \u31435 \u21363 \u20197 \u30828 \u39636 \u26041 \u24335 \u36890 \u30693 \u20027 \u25511 \u31471 \u65292 \u32780 \u19981 \u38656 \u35201 \u20027 \u25511 \u31471 \u19981 \u26039 \u36879 \u36942  I2C \u36650 \u35426  (Polling)\u12290 \u22312 \u28961  MCU \u30340 \u31995 \u32113 \u20013 \u65292 \u27492 \u20013 \u26039 \u35338 \u34399 \u21487 \u30452 \u25509 \u36899 \u25509 \u33267 \u23526 \u39636 \u30340 \u35686 \u31034 \u29128 \u25110 \u24375 \u21046 \u20999 \u26039 \u38651 \u28304 \u30340 \u20445 \u35703 \u38651 \u36335 \u65292 \u36948 \u25104 \u24494 \u31186 \u32026 \u30340 \u23433 \u20840 \u38459 \u26039 \u12290 \
+\ls2\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}\uc0\u30828 \u39636 \u37325 \u32622  (RESET)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u27492 \u33139 \u20301 \u29992 \u20197 \u23559 \u26230 \u29255 \u20839 \u25152 \u26377  16 \u20491  I/O \u33139 \u20301 \u30636 \u38291 \u24489 \u20301 \u33267 \u39640 \u38459 \u25239  (High-Z) \u36664 \u20837 \u29376 \u24907 \u12290 \u22312 \u21855 \u21205 \u30636 \u38291 \u65292 \u24314 \u35696 \u36879 \u36942 \u19968 \u32068  RC \u24310 \u36978 \u38651 \u36335  (\u22914  10k\u937  \u19978 \u25289 \u38651 \u38459 \u37197 \u21512  0.1uF \u38651 \u23481 \u19979 \u22320 ) \u23526 \u20316 \u36890 \u38651 \u37325 \u32622  (Power-on Reset)\u65292 \u30906 \u20445 \u31995 \u32113 \u20379 \u38651 \u23436 \u20840 \u31337 \u23450 \u24460 \u65292 \u25844 \u23637 \u26230 \u29255 \u25165 \u27491 \u24335 \u20171 \u20837 \u24037 \u20316 \u12290 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf2 \strokec2 3. Microchip MCP4725\uc0\u65306 12 \u20301 \u20803 \u25976 \u20301 \u39006 \u27604 \u36681 \u25563 \u22120  (DAC)\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\fs28 \cf2 \strokec2 3.1 \uc0\u26230 \u29255 \u27010 \u36848 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf2 \strokec2 MCP4725 \uc0\u26159 \u19968 \u38982 \u20302 \u21151 \u32791 \u12289 \u39640 \u31934 \u24230 \u19988 \u20855 \u20633 \u38750 \u25582 \u30332 \u24615 \u35352 \u25014 \u39636  (EEPROM) \u30340 \u21934 \u36890 \u36947  12-bit DAC \u26230 \u29255 \u12290 \u22312 \u22739 \u38651 \u38518 \u29943 \u39493 \u21205 \u31995 \u32113 \u20013 \u65292 \u27492 \u26230 \u29255 \u23560 \u36012 \u23559 \u25511 \u21046 \u31471 \u19979 \u36948 \u30340 \u25976 \u20301 \u35338 \u34399 \u65292 \u36681 \u25563 \u28858  0~3.3V \u20043 \u38291 \u36899 \u32396 \u28961 \u32026 \u30340 \u24179 \u28369 \u39006 \u27604 \u27874 \u24418 \u65292 \u20316 \u28858 \u24460 \u32026 \u39640 \u22739 \u36939 \u31639 \u25918 \u22823 \u22120  (\u22914  OPA462) \u30340 \u38651 \u22739 \u21443 \u32771 \u28304 \u12290 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 3.2 SOT-23-6 \uc0\u23553 \u35037 \u33139 \u20301 \u23450 \u32681 \u32317 \u34920 \
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4542\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\fs24 \cf2 \strokec2 \uc0\u24341 \u33139 \u34399 \u30908 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 \uc0\u33139 \u20301 \u21517 \u31281 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 I/O \uc0\u39006 \u22411 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 \uc0\u21151 \u33021 \u35498 \u26126 \u33287 \u31995 \u32113 \u23450 \u32681 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4542\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 1
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 VOUT\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u39006 \u27604 \u36664 \u20986 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u39006 \u27604 \u38651 \u22739 \u36664 \u20986 \u31471 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4542\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 2
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 VSS\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38651 \u28304 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u39006 \u27604 \u33287 \u37007 \u36655 \u20849 \u29992 \u25509 \u22320 \u31471  (GND)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4542\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 3
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 VDD\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38651 \u28304 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u26230 \u29255 \u20379 \u38651 \u33287  
+\f0\b \cf2 \strokec2 \uc0\u39006 \u27604 \u22522 \u28310 \u38651 \u22739 \u28304 
+\f1\b0 \cf2 \strokec2  (2.7V - 5.5V)\uc0\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4542\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 4
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 SDA\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521  (\u38283 \u28431 )\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 I2C \uc0\u36039 \u26009 \u32218 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4542\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 5
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 SCL\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 I2C \uc0\u26178 \u33032 \u32218 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4542\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 6
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 A0\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 I2C \uc0\u22320 \u22336 \u26368 \u20302 \u20301 \u20803 \u35373 \u23450 \u33139 \u20301 \u12290 \cell \lastrow\row
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 3.3 \uc0\u26680 \u24515 \u33139 \u20301 \u28145 \u24230 \u35299 \u26512 \u33287 \u25033 \u29992 \u35215 \u31684 \
+\pard\pardeftab720\partightenfactor0
+\ls3\ilvl0
+\fs24 \cf2 \strokec2 {\listtext	\'95	}\uc0\u39006 \u27604 \u36664 \u20986  (VOUT)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u27492 \u24341 \u33139 \u20839 \u37096 \u20855 \u20633 \u36556 \u23565 \u36556  (Rail-to-Rail) \u36664 \u20986 \u25918 \u22823 \u22120 \u65292 \u33021 \u22816 \u25552 \u20379 \u31337 \u23450 \u19988 \u20855 \u20633 \u19968 \u23450 \u39493 \u21205 \u33021 \u21147 \u30340 \u38651 \u22739 \u36664 \u20986 \u12290 \u28982 \u32780 \u65292 \u28858 \u30906 \u20445 \u27874 \u24418 \u32020 \u28136 \u20006 \u38548 \u38626 \u24460 \u32026 \u36000 \u36617 \u25928 \u25033 \u65292 
+\f0\b \cf2 \strokec2 \uc0\u24037 \u31243 \u35215 \u31684 \u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u24314 \u35696 \u22312  VOUT \u33287 \u24460 \u32026 \u25918 \u22823 \u22120 \u20043 \u38291 \u65292 \u22686 \u21152 \u19968 \u32026 \u21934 \u20301 \u22686 \u30410 \u32233 \u34909 \u22120  (Voltage Follower Buffer)\u65292 \u25110 \u30906 \u20445 \u24460 \u32026 \u38651 \u36335 \u30340 \u36664 \u20837 \u38459 \u25239 \u26997 \u39640 \u12290 \
+\ls3\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}\uc0\u22320 \u22336 \u36984 \u25799  (A0)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u28858 \u20102 \u33021 \u22312 \u21516 \u19968 \u26781 \u21295 \u27969 \u25490 \u19978 \u29544 \u31435 \u25511 \u21046 \u20841 \u32068 \u19981 \u21516 \u30340 \u36664 \u20986 \u38651 \u22739 \u65292 \u27492 \u33139 \u20301 \u20801 \u35377 \u20320 \u35373 \u23450 \u26230 \u29255 \u30340  I2C \u22320 \u22336 \u12290 \u25509 \u33267  GND \u26178 \u22320 \u22336 \u28858  
+\f2 \cf2 \strokec2 0x60
+\f1 \cf2 \strokec2 \uc0\u65292 \u25509 \u33267  VDD \u26178 \u22320 \u22336 \u28858  
+\f2 \cf2 \strokec2 0x61
+\f1 \cf2 \strokec2  (\uc0\u20381 \u25818 \u21407 \u24288 \u20986 \u24288 \u20195 \u30908 \u21487 \u33021 \u26377 \u25152 \u35722 \u21205 \u65292 \u35373 \u35336 \u21069 \u21209 \u24517 \u26680 \u23565 \u25505 \u36092 \u20043 \u23526 \u39636 \u20803 \u20214 \u25209 \u34399 )\u12290 \
+\ls3\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}\uc0\u38651 \u28304 \u33287 \u21443 \u32771 \u22522 \u28310  (VDD)\u65306 
+\f1\b0 \cf2 \strokec2  
+\f0\b \cf2 \strokec2 \uc0\u27492 \u28858 \u25972 \u20491 \u31995 \u32113 \u26368 \u38364 \u37749 \u30340 \u39006 \u27604 \u31680 \u40670 \u12290 
+\f1\b0 \cf2 \strokec2  MCP4725 \uc0\u20006 \u28961 \u29544 \u31435 \u30340  V_\{REF\} \u24341 \u33139 \u65292 \u32780 \u26159 \u30452 \u25509 \u23559  V_\{DD\} \u33139 \u20301 \u19978 \u30340 \u38651 \u22739 \u20316 \u28858 \u28415 \u37327 \u31243 \u21051 \u24230 \u12290 \u33509  VDD \u24118 \u26377  50mV \u30340 \u20132 \u25563 \u24335 \u38651 \u28304 \u28451 \u27874 \u65292 \u35442 \u28451 \u27874 \u23559 \u31561 \u27604 \u20363 \u34987 \u36681 \u35695 \u21040  VOUT\u65292 \u36914 \u20837 \u24460 \u32026 \u24460 \u23559 \u34987 \u25918 \u22823  40 \u20493 \u65292 \u23566 \u33268 \u22739 \u38651 \u38518 \u29943 \u31471 \u20986 \u29694 \u39640 \u36948  2V \u30340 \u38620 \u35338 \u25238 \u21205 \u12290 
+\f0\b \cf2 \strokec2 \uc0\u20296 \u32218 \u35215 \u31684 \u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u24517 \u38920 \u28858 \u27492 \u24341 \u33139 \u25552 \u20379 \u23560 \u23660 \u30340 \u39640 \u31934 \u24230 \u20302 \u22739 \u24046 \u32218 \u24615 \u31337 \u22739 \u22120  (LDO)\u65292 \u20006 \u22312 \u26997 \u38752 \u36817 \u24341 \u33139 \u34389 \u37197 \u32622  0.1uF \u33287  10uF \u30340 \u38518 \u29943 \u36864 \u32806 \u38651 \u23481 \u12290 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf2 \strokec2 4. Microchip MCP3221\uc0\u65306 12 \u20301 \u20803 \u39006 \u27604 \u25976 \u20301 \u36681 \u25563 \u22120  (ADC)\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\fs28 \cf2 \strokec2 4.1 \uc0\u26230 \u29255 \u27010 \u36848 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf2 \strokec2 MCP3221 \uc0\u28858 \u19968 \u27454 \u36229 \u24494 \u22411 \u21270 \u12289 \u20302 \u21151 \u32791 \u30340  12-bit SAR (\u36880 \u27425 \u36924 \u36817 \u26283 \u23384 \u22120 ) \u39006 \u27604 \u25976 \u20301 \u36681 \u25563 \u26230 \u29255 \u12290 \u35442 \u20803 \u20214 \u35373 \u35336 \u26997 \u24230 \u31777 \u32004 \u65292 \u20839 \u37096 \u21076 \u38500 \u20102 \u25152 \u26377 \u35079 \u38620 \u30340 \u25511 \u21046 \u26283 \u23384 \u22120 \u65292 \u21482 \u20445 \u30041 \u26368 \u32020 \u31929 \u30340 \u36899 \u32396 \u21462 \u27171 \u30828 \u39636 \u38651 \u36335 \u65292 \u26159 \u31995 \u32113 \u20013 \u36000 \u36012 \u22519 \u34892 \u12300 \u38651 \u22739 \u22238 \u25480 \u30435 \u25511 \u12301 \u30340 \u38364 \u37749 \u20659 \u24863 \u27166 \u32016 \u12290 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 4.2 SOT-23-5 \uc0\u23553 \u35037 \u33139 \u20301 \u23450 \u32681 \u32317 \u34920 \
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5022\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\fs24 \cf2 \strokec2 \uc0\u24341 \u33139 \u34399 \u30908 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 \uc0\u33139 \u20301 \u21517 \u31281 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 I/O \uc0\u39006 \u22411 \cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \strokec2 \uc0\u21151 \u33021 \u35498 \u26126 \u33287 \u31995 \u32113 \u23450 \u32681 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5022\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 1
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 VDD\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38651 \u28304 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u26230 \u29255 \u20379 \u38651 \u33287  
+\f0\b \cf2 \strokec2 \uc0\u39006 \u27604 \u37327 \u28204 \u22522 \u28310 \u38651 \u22739 \u28304 
+\f1\b0 \cf2 \strokec2  (2.7V - 5.5V)\uc0\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5022\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 2
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 VSS\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38651 \u28304 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u39006 \u27604 \u33287 \u37007 \u36655 \u20849 \u29992 \u25509 \u22320 \u31471  (GND)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5022\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 3
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 AIN\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u39006 \u27604 \u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u24453 \u28204 \u39006 \u27604 \u38651 \u22739 \u36664 \u20837 \u31471  (\u37327 \u28204 \u31684 \u22285 \u65306 0V \u33267  VDD)\u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5022\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 4
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 SDA\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u38617 \u21521  (\u38283 \u28431 )\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 I2C \uc0\u36039 \u26009 \u32218 \u12290 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth960\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1180\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth5022\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \strokec2 5
+\f1\b0 \cf2 \strokec2 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 SCL\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 \uc0\u36664 \u20837 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf2 \strokec2 I2C \uc0\u26178 \u33032 \u32218 \u12290 \cell \lastrow\row
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 4.3 \uc0\u26680 \u24515 \u33139 \u20301 \u28145 \u24230 \u35299 \u26512 \u33287 \u25033 \u29992 \u35215 \u31684 \
+\pard\pardeftab720\partightenfactor0
+\ls4\ilvl0
+\fs24 \cf2 \strokec2 {\listtext	\'95	}\uc0\u39006 \u27604 \u36664 \u20837  (AIN)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u27492 \u24341 \u33139 \u30452 \u25509 \u33287 \u26230 \u29255 \u20839 \u37096 \u30340 \u38651 \u23481 \u38499 \u21015 \u30456 \u36899 \u12290 \u30070 \u35712 \u21462 \u39640 \u22739  (120V) \u31995 \u32113 \u30340 \u20998 \u22739 \u35338 \u34399 \u26178 \u65292 \u24517 \u38920 \u27880 \u24847 \u21069 \u31471 \u20998 \u22739 \u32178 \u36335 \u30340 \u36664 \u20986 \u38459 \u25239  (Output Impedance)\u12290 \u33509 \u20998 \u22739 \u38651 \u38459 \u32317 \u20540 \u36942 \u39640 \u65288 \u22823 \u26044  10k\u937 \u65289 \u65292 \u23559 \u23566 \u33268  ADC \u20839 \u37096 \u30340 \u21462 \u27171 \u38651 \u23481 \u20805 \u25918 \u38651 \u26178 \u38291 \u19981 \u36275 \u65292 \u36896 \u25104 \u35712 \u21462 \u25976 \u20540 \u22196 \u37325 \u22833 \u30495 \u12290 
+\f0\b \cf2 \strokec2 \uc0\u24037 \u31243 \u35215 \u31684 \u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u24314 \u35696 \u22312  AIN \u33139 \u20301 \u21069 \u26041 \u37197 \u32622 \u19968 \u38982  1000pF \u33267  0.01uF \u30340 \u23567 \u23481 \u37327 \u38518 \u29943 \u38651 \u23481 \u20316 \u28858 \u38651 \u33655 \u27700 \u24235  (Charge Reservoir)\u65292 \u20197 \u21332 \u21161 \u30636 \u38291 \u21462 \u27171 \u26178 \u30340 \u38651 \u33655 \u36681 \u31227 \u12290 \
+\ls4\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}\uc0\u30828 \u39636 \u36890 \u35338 \u20301 \u22336  (\u28961 \u27861 \u32147 \u30001 \u33139 \u20301 \u26356 \u25913 )\u65306 
+\f1\b0 \cf2 \strokec2  MCP3221 \uc0\u30340  SOT-23 \u23553 \u35037 \u22240 \u28858 \u24341 \u33139 \u25976 \u37327 \u38480 \u21046 \u65292 
+\f0\b \cf2 \strokec2 \uc0\u27794 \u26377 
+\f1\b0 \cf2 \strokec2 \uc0\u20445 \u30041 \u20219 \u20309 \u30828 \u39636 \u22320 \u22336 \u35373 \u23450 \u33139 \u12290 \u20854  I2C \u22320 \u22336 \u26159 \u22312 \u26230 \u22291 \u20986 \u24288 \u26178 \u30452 \u25509 \u29138 \u27515 \u30340 \u12290 \u25505 \u36092 \u26178 \u24517 \u38920 \u22196 \u26684 \u21312 \u20998 \u22411 \u34399 \u65292 \u20363 \u22914  
+\f2 \cf2 \strokec2 MCP3221A5T-E/OT
+\f1 \cf2 \strokec2  \uc0\u30340 \u22320 \u22336 \u22266 \u23450 \u28858  
+\f2 \cf2 \strokec2 0x4D
+\f1 \cf2 \strokec2 \uc0\u65292 \u33509 \u38656 \u22312 \u21516 \u22602 \u26495 \u19978 \u20006 \u32879 \u31532 \u20108 \u38982  ADC\u65292 \u24517 \u38920 \u25505 \u36092  
+\f2 \cf2 \strokec2 MCP3221A4T
+\f1 \cf2 \strokec2  \uc0\u31561 \u30456 \u30064 \u24460 \u32180 \u20043 \u22411 \u34399 \u65292 \u21542 \u21063 \u22312 \u30828 \u39636 \u23652 \u38754 \u23559 \u28961 \u27861 \u25405 \u25937 \u22320 \u22336 \u34909 \u31361 \u30340 \u21839 \u38988 \u12290 \
+\ls4\ilvl0
+\f0\b \cf2 \strokec2 {\listtext	\'95	}\uc0\u38651 \u28304 \u33287 \u21443 \u32771 \u22522 \u28310  (VDD)\u65306 
+\f1\b0 \cf2 \strokec2  \uc0\u33287  MCP4725 (DAC) \u30456 \u21516 \u65292 MCP3221 (ADC) \u30340  VDD \u21516 \u26178 \u20860 \u20219 \u20379 \u38651 \u33287 \u21051 \u24230 \u23610  (Reference Voltage) \u30340 \u38617 \u37325 \u20219 \u21209 \u12290 \u20219 \u20309  VDD \u30340 \u38651 \u22739 \u27874 \u21205 \u37117 \u26371 \u30452 \u25509 \u23566 \u33268 \u37327 \u28204 \u32080 \u26524 \u30340 \u35492 \u24046 \u12290 \u24375 \u28872 \u35215 \u31684 \u22312  PCB \u20296 \u32218 \u26178 \u65292 \u23559  ADC \u30340  VDD \u33287  DAC \u30340  VDD \u20849 \u29992 \u21516 \u19968 \u32068 \u39640 \u32020 \u24230  LDO \u38651 \u28304 \u65292 \u20006 \u23526 \u26045 \u22196 \u26684 \u30340 \u39006 \u27604 /\u25976 \u20301 \u25509 \u22320 \u38548 \u38626 \u12290 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf2 \strokec2 5. \uc0\u36328 \u26230 \u29255 \u31995 \u32113 \u25972 \u21512 \u33287 \u20296 \u32218 \u35215 \u31684  (PCB Layout Guidelines)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf2 \strokec2 \uc0\u30070 \u25972 \u21512 \u19978 \u36848 \u22235 \u27454 \u21253 \u21547 \u32020 \u25976 \u20301 \u39640 \u38971  (SC18IM704, MCP23017) \u33287 \u31934 \u23494 \u39006 \u27604  (MCP4725, MCP3221) \u30340 \u26230 \u29255 \u26044 \u21516 \u19968 \u38651 \u36335 \u26495 \u26178 \u65292 \u30828 \u39636 \u20296 \u32218 \u24517 \u38920 \u22196 \u26684 \u36981 \u23432 \u20197 \u19979 \u28310 \u21063 \u65292 \u20197 \u36991 \u20813 \u20132 \u36234 \u24178 \u25854  (Cross-talk) \u33287 \u25509 \u22320 \u24392 \u36339  (Ground Bounce)\u12290 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 5.1 \uc0\u26143 \u22411 \u25509 \u22320 \u33287 \u20998 \u38626 \u25509 \u22320 \u31574 \u30053  (Star Grounding)\
+\pard\pardeftab720\partightenfactor0
+\ls5\ilvl0
+\f1\b0\fs24 \cf2 \strokec2 {\listtext	1.	}\uc0\u31995 \u32113 \u30340 \u25509 \u22320 \u32178 \u36335  (GND) \u24517 \u38920 \u22312 \u29289 \u29702 \u20296 \u32218 \u19978 \u20999 \u21106 \u28858 
+\f0\b \cf2 \strokec2 \uc0\u39006 \u27604 \u22320  (AGND)
+\f1\b0 \cf2 \strokec2  \uc0\u33287 
+\f0\b \cf2 \strokec2 \uc0\u25976 \u20301 \u22320  (DGND)
+\f1\b0 \cf2 \strokec2 \uc0\u12290 \
+{\listtext	2.	}SC18IM704 \uc0\u33287  MCP23017 \u30340  VSS \u33139 \u20301 \u65292 \u20197 \u21450 \u25152 \u26377 \u25976 \u20301 \u36890 \u35338 \u32218  (RX, TX) \u30340 \u36852 \u27969 \u36335 \u24465 \u65292 \u24517 \u38920 \u38480 \u21046 \u22312  DGND \u21312 \u22495 \u20839 \u12290 \
+{\listtext	3.	}MCP4725 \uc0\u33287  MCP3221 \u30340  VSS \u33139 \u20301 \u65292 \u20197 \u21450 \u20998 \u22739 \u32178 \u36335 \u30340 \u25509 \u22320 \u31471 \u65292 \u24517 \u38920 \u38480 \u21046 \u22312  AGND \u21312 \u22495 \u20839 \u12290 \
+{\listtext	4.	}AGND \uc0\u33287  DGND \u21482 \u33021 \u22312 \u38651 \u28304 \u36664 \u20837 \u31471 \u30340 \u21807 \u19968 \u19968 \u40670 \u65288 \u22914  LDO \u31337 \u22739 \u22120 \u30340 \u25509 \u22320 \u33139 \u65289 \u36879 \u36942  0 \u27472 \u22982 \u38651 \u38459 \u25110 \u30913 \u29664  (Ferrite Bead) \u36914 \u34892 \u21934 \u40670 \u36899 \u25509 \u65288 \u26143 \u22411 \u25509 \u22320 \u65289 \u65292 \u32085 \u23565 \u31105 \u27490 \u20841 \u20491 \u25509 \u22320 \u24179 \u38754 \u22312 \u22810 \u34389 \u20132 \u30090 \u25110 \u28151 \u29992 \u12290 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 5.2 I2C \uc0\u21295 \u27969 \u25490 \u30340 \u26368 \u20339 \u21270 \u20296 \u32218 \
+\pard\pardeftab720\partightenfactor0
+\ls6\ilvl0
+\f2\b0\fs24 \cf2 \strokec2 {\listtext	1.	}SDA
+\f1 \cf2 \strokec2  \uc0\u33287  
+\f2 \cf2 \strokec2 SCL
+\f1 \cf2 \strokec2  \uc0\u28858 \u36011 \u31359 \u22235 \u22602 \u26230 \u29255 \u30340 \u20849 \u29992 \u36890 \u35338 \u32218 \u12290 \u20296 \u32218 \u25033 \u30433 \u21487 \u33021 \u30701 \u65292 \u20006 \u20197 \u12300 \u33738 \u33457 \u37832  (Daisy Chain)\u12301 \u25110 \u12300 \u27193 \u29376 \u25299 \u27192 \u12301 \u26041 \u24335 \u36899 \u32080 \u25152 \u26377 \u31680 \u40670 \u12290 \
+{\listtext	2.	}\uc0\u20841 \u26781 \u36208 \u32218 \u20043 \u38291 \u25033 \u20445 \u25345 \u33267 \u23569  2 \u20493 \u32218 \u23532 \u20197 \u19978 \u30340 \u38291 \u36317 \u65292 \u25110 \u22312 \u20841 \u32218 \u20043 \u38291 \u37610 \u35373 \u22320 \u32218  (Guard Ring) \u20197 \u38477 \u20302 \u32806 \u21512 \u38651 \u23481 \u12290 \
+{\listtext	3.	}\uc0\u19978 \u25289 \u38651 \u38459 \u25033 \u25918 \u32622 \u26044 \u36317 \u38626 \u20027 \u25511 \u31471  (SC18IM704) \u26368 \u36960 \u30340 \u26411 \u31471 \u26230 \u29255 \u38468 \u36817 \u65292 \u20197 \u30906 \u20445 \u25972 \u26781 \u32218 \u36335 \u30340 \u38651 \u22739 \u28310 \u20301 \u25552 \u21319 \u33021 \u21147 \u36948 \u21040 \u26368 \u20339 \u29376 \u24907 \u12290 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf2 \strokec2 5.3 \uc0\u21435 \u32806 \u38651 \u23481 \u30340 \u31354 \u38291 \u20296 \u23616  (Decoupling Capacitor Placement)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf2 \strokec2 \uc0\u21435 \u32806 \u38651 \u23481 \u30340 \u25928 \u29992 \u33287 \u23526 \u39636 \u36317 \u38626 \u21576 \u32085 \u23565 \u27491 \u30456 \u38364 \u12290 \u27599 \u19968 \u38982 \u26230 \u29255 \u30340  VDD \u24341 \u33139 \u26049 \u65292 
+\f0\b \cf2 \strokec2 \uc0\u24517 \u38920 \u22312 \u36317 \u38626 \u24341 \u33139  2 \u27627 \u31859 \u20197 \u20839 \u30340 \u31684 \u22285 
+\f1\b0 \cf2 \strokec2 \uc0\u65292 \u37197 \u32622 \u19968 \u38982  0.1uF (100nF) \u30340  X7R \u31561 \u32026 \u22810 \u23652 \u38518 \u29943 \u38651 \u23481  (MLCC)\u12290 \u38651 \u23481 \u30340 \u21478 \u19968 \u31471 \u24517 \u38920 \u20197 \u26368 \u30701 \u36335 \u24465 \u19988 \u36879 \u36942 \u36942 \u23380  (Via) \u22402 \u30452 \u25171 \u20837 \u20839 \u23652 \u22320 \u24179 \u38754 \u12290 \u33509 \u38651 \u23481 \u25918 \u32622 \u36317 \u38626 \u36942 \u36960 \u65292 \u36208 \u32218 \u29986 \u29983 \u30340 \u23492 \u29983 \u38651 \u24863 \u23559 \u23566 \u33268 \u38651 \u23481 \u22312 \u39640 \u38971 \u26178 \u23436 \u20840 \u22833 \u25928 \u65292 \u22833 \u21435 \u21560 \u25910 \u26230 \u29255 \u30636 \u38291 \u20999 \u25563 \u38620 \u35338 \u30340 \u20316 \u29992 \u12290 \
+}
